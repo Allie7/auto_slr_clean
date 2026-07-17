@@ -1,0 +1,17 @@
+2026-07-07 16:07:58,494 [INFO] ============================================================
+2026-07-07 16:07:58,494 [INFO] QLoRA Fine-tuning: Qwen2.5-1.5B-Instruct
+2026-07-07 16:07:58,494 [INFO] ============================================================
+2026-07-07 16:07:58,494 [INFO] Model: D:\NLP\models\models\Qwen\Qwen2.5-1.5B-Instruct
+2026-07-07 16:07:58,494 [INFO] Data: D:\School\SAT404\pilot_study_code\new_auto_slr\finetune_data\qwen_finetune.jsonl
+2026-07-07 16:07:58,494 [INFO] Epochs: 3
+2026-07-07 16:07:58,494 [INFO] Batch: 4x4=16
+2026-07-07 16:07:58,494 [INFO] LR: 0.0002
+2026-07-07 16:07:58,494 [INFO] LoRA r=16, alpha=32
+2026-07-07 16:07:58,510 [INFO] GPU: NVIDIA GeForce RTX 5070 Ti
+2026-07-07 16:07:58,510 [INFO] VRAM: 15.9 GB
+2026-07-07 16:07:58,510 [INFO] ============================================================
+2026-07-07 16:07:58,780 [INFO] Loaded 8804 samples from D:\School\SAT404\pilot_study_code\new_auto_slr\finetune_data\qwen_finetune.jsonl
+2026-07-07 16:08:10,469 [INFO] Train: 8363, Eval: 441
+2026-07-07 16:08:11,753 [INFO] We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2026-07-07 16:08:14,375 [INFO] Estimated steps: ~1566
+2026-07-07 16:08:14,420 [INFO] Early stopping: patience=3

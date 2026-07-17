@@ -1,0 +1,21 @@
+2026-07-06 13:54:48,771 [INFO] ============================================================
+2026-07-06 13:54:48,771 [INFO] QLoRA Fine-tuning: Qwen2.5-1.5B-Instruct (MonoJudge)
+2026-07-06 13:54:48,771 [INFO] ============================================================
+2026-07-06 13:54:48,771 [INFO] Model:  D:\NLP\models\models\Qwen\Qwen2.5-1.5B-Instruct
+2026-07-06 13:54:48,771 [INFO] Data:   D:\School\SAT404\pilot_study_code\new_auto_slr\finetune_data\qwen_finetune_balanced.jsonl
+2026-07-06 13:54:48,771 [INFO] Output: D:\School\SAT404\pilot_study_code\new_auto_slr\finetune_data\qwen_lora_output
+2026-07-06 13:54:48,771 [INFO] Epochs: 3, Batch: 4x4=16
+2026-07-06 13:54:48,771 [INFO] LR: 0.0002, LoRA r=16, alpha=32
+2026-07-06 13:54:48,787 [INFO] Temperature: 10.0, λ_struct=0.05, λ_ent=0.01
+2026-07-06 13:54:48,787 [INFO] GPU: NVIDIA GeForce RTX 5070 Ti, VRAM: 15.9 GB
+2026-07-06 13:54:48,787 [INFO] ============================================================
+2026-07-06 13:54:49,021 [INFO] Loaded 3924 samples from D:\School\SAT404\pilot_study_code\new_auto_slr\finetune_data\qwen_finetune_balanced.jsonl
+2026-07-06 13:54:53,323 [INFO] Train: 3727, Eval: 197
+2026-07-06 13:54:54,689 [INFO] We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2026-07-06 13:54:56,780 [INFO] Estimated steps: ~696
+2026-07-06 13:54:56,828 [INFO] Early stopping: patience=3
+2026-07-06 14:37:03,704 [INFO] Saving LoRA adapter to D:\School\SAT404\pilot_study_code\new_auto_slr\finetune_data\qwen_lora_output\final_lora...
+2026-07-06 14:37:04,023 [INFO] ============================================================
+2026-07-06 14:37:04,023 [INFO] Training complete!
+2026-07-06 14:37:04,023 [INFO] LoRA adapter: D:\School\SAT404\pilot_study_code\new_auto_slr\finetune_data\qwen_lora_output\final_lora
+2026-07-06 14:37:04,023 [INFO] ============================================================

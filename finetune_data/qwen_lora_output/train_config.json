@@ -1,0 +1,14 @@
+{
+  "epochs": 3,
+  "batch_size": 4,
+  "grad_accum": 4,
+  "lr": 0.0002,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "max_length": 2048,
+  "warmup_ratio": 0.05,
+  "save_steps": 200,
+  "logging_steps": 20,
+  "early_stopping_patience": 3,
+  "output_dir": "D:\\School\\SAT404\\pilot_study_code\\new_auto_slr\\finetune_data\\qwen_lora_output"
+}

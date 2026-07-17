@@ -1,0 +1,16 @@
+openai>=1.0.0
+python-dotenv>=1.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# 训练相关
+torch>=2.1.0
+transformers>=4.40.0
+peft>=0.10.0
+accelerate>=0.28.0
+bitsandbytes>=0.43.0
+datasets>=2.18.0
+
+# 稠密检索（可选，默认使用内置 TF-IDF）
+# sentence-transformers>=2.2.0
+# rankify>=0.1.0
